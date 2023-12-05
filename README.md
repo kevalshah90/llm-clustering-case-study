@@ -10,12 +10,14 @@ There are three main tasks in this assignment:
 
 The goal of this assignment is to demonstrate your ability to build a data pipeline to process unstructured data, and to use that data to build a simple clustering and summarizing tool whose output could be built into a more complex application. What we expect you to build are proofs of concept, and not production-ready models.
 
+If you decide to use a paid API to solve the exercise, we will reimburse you for usage up to $10.
+
 ## Instructions
 1. Clone (**please, don't fork!**) this repository and create a new branch for your development work
 1. Create your implementation following the [Specification](#specification) below
 1. Add instructions on how to run your implementation to the [Getting Started](#getting-started) section.
 1. In the [follow-up questions](#follow-up-questions) section below, respond inline to each of the questions.
-1. Commit your implementation and answers to a new private repo in your personal GH and give `@avyfain` access to the repo.
+1. Commit your implementation and answers to a new repo in your personal GH and give `@avyfain` access to the repo.
 
 **Guidelines:**
 - Do not spend longer than four hours on your implementation, a perfect implementation is not required or expected. Please move on to the [follow-up questions](#follow-up-questions) after that.
@@ -36,6 +38,7 @@ We do not expect you to download any additional data from the SEC's database, bu
 ## Specification
 
 We expect you to build the following functionality:
+  - [ ] You will filter down the dataset to cluster companies that are in the S&P 500 index. You can find a recent list of CIKs for companies in the S&P 500 in the `SP500.txt` file.
   - [ ] You will create a script that given a directory with report files can produce a `CIK -> Company Name` mapping in the shape of a CSV file with two columns: CIK and Company Name. Each row in this file will represent each file in the provided data. (hint: you don't need to throw an LLM at this problem)
   - [ ] You will run your mapping script on the provided data, and include it in your response.
   - [ ] You will write a data pipeline to process the provided HTML into an intermediate representation that can be used for clustering. One of the features in your intermediate representation should be a 1-paragraph summary of the report. You can use any pre-trained language model you like to generate the summary.
