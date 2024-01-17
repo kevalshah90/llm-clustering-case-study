@@ -56,6 +56,8 @@ The intermediary files are saved in the working directory and can be found here 
 
 Add the open AI API key: `os.environ['OPENAI_API_KEY'] = "xxx"`
 
+You will run through the script and save a final dataframe in the `/App` folder. From this folder, you can launch the streamlit App by running command `streamlit run app.py`. 
+
 ## Follow-Up Questions
 
   1. Describe which task you found most difficult in the implementation, and why.
@@ -84,7 +86,7 @@ Add the open AI API key: `os.environ['OPENAI_API_KEY'] = "xxx"`
     
     > User Experience
     
-       I'd work on generating more meaningful clusters. The improvements here would be from extracting relevant texts, generating embeddings and then trying out different clustering / similarity algorithms.
+       I'd work on generating more meaningful clusters. The improvements here would be from extracting relevant texts, generating embeddings and then trying out different clustering / similarity algorithms. In the streamlit App UI, instead of showing all the companies in the same cluster as the selected company, I'd limit the list to top 5 or 10 companies for better UX. 
     
     > Data Quality
     
