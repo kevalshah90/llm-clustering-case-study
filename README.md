@@ -84,11 +84,11 @@ You will run through the script and save a final dataframe in the `/App` folder.
         
         Try an domain specific model or Fine-tune one on financial data and utilize that for generating summaries. Example, https://huggingface.co/ProsusAI/finbert.   
     
-    > User Experience
+      > User Experience
     
        I'd work on generating more meaningful clusters. The improvements here would be from extracting relevant texts, generating embeddings and then trying out different clustering / similarity algorithms. In the streamlit App UI, instead of showing all the companies in the same cluster as the selected company, I'd limit the list to top 5 or 10 companies for better UX. 
     
-    > Data Quality
+      > Data Quality
     
        Improvements in how we process unstructured textual data. Using Beautiful soup to parse text, identify and clean up irrelevant texts, piping in factual data such as financials, sector, market cap and so on and using them for either feature engineering for classical ML or into the embeddings for LLMs. 
        
