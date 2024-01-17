@@ -103,6 +103,12 @@ You will run through the script and save a final dataframe in the `/App` folder.
      > For model performance, I'd employ model evaluation metrics for summarization tasks such as BLEU, Perplexity to monitor model performance and identify potential biases or drift. 
      
 
+ChatGPT / Bard helper Prompts: 
+
+1. LLM model evaluation metrics for summarization tasks
+2. How to deal with BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 16412 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+
+
 # Evaluation Criteria
 
 You will be evaluated out of a total of 50 points based on the following criteria.
