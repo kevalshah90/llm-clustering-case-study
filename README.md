@@ -48,7 +48,7 @@ We expect you to build the following functionality:
 
 ## Getting Started
 
-The `main-notebook.ipynb` is the primary file that references the data files and performs read, write, cluster and summarize operations. The notebook is divided into roughly 3 sections, 1) Mapping CIK-Company task 2) Summarization 3) Clustering. 
+The `main_notebook.ipynb` is the primary file that references the data files and performs read, write, cluster and summarize operations. The notebook is divided into roughly 3 sections, 1) Mapping CIK-Company task 2) Summarization 3) Clustering. 
 
 Set the working directory as the directory that includes the `inscope-take-home.ipynb` file. The `.html` 10k files are saved in the `\data` folder and read from there.
 
