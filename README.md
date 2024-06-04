@@ -107,20 +107,3 @@ ChatGPT / Bard helper Prompts:
 
 1. LLM model evaluation metrics for summarization tasks
 2. How to deal with BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 16412 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
-
-
-# Evaluation Criteria
-
-You will be evaluated out of a total of 50 points based on the following criteria.
-
-  - Learning Exercise (30 points total)
-    - **Functionality (20 points)**: is the requested functionality implemented as described?
-    - **Code Quality (10 points)**: is the code well structured and easily read?
-    - **Bonus (3 maximum)**: bonus points are awarded for anything that goes above and beyond the items in the specification.  For example, additional .
-  - Follow Up Questions (20 points total)
-    - Question 1 (2 points)
-    - Question 2 (2 points)
-    - Question 3 (3 points)
-    - Question 4 (3 points)
-    - Question 5 (5 points)
-    - Question 6 (5 points)
